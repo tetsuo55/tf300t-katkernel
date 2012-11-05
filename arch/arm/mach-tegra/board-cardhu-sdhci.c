@@ -186,6 +186,7 @@ static struct tegra_sdhci_platform_data tegra_sdhci_platform_data3 = {
 	.tap_delay = 0x0F,
 	.mmc_data = {
 		.built_in = 1,
+		.ocr_mask = MMC_OCR_1V8_MASK,
 	}
 /*	.is_voltage_switch_supported = false,
 	.vdd_rail_name = NULL,
